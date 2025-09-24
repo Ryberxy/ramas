@@ -1,1 +1,5 @@
-Provocando un conflicto en la rama main
+<<<<<<< HEAD
+Provocando un conflicto en la rama segunda
+=======
+Provocando un conflicto en la rama segunda
+>>>>>>> segunda
