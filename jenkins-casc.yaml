@@ -1,0 +1,1916 @@
+configuration-as-code: {
+  }
+credentials:
+  folder: {
+    }
+  providerImpl: {
+    }
+  system:
+    domainCredentials:
+    - credentials:
+      - file:
+          fileName: "config"
+          id: "kubeconfig"
+          scope: GLOBAL
+          secretBytes: "{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}"
+      - string:
+          id: "jenkins-jwt-token"
+          scope: GLOBAL
+          secret: "{AQAAABAAAATwidfRyejzsHB19pzNDFVX+9/03eoUdLgHCKHkb28HvLgMLl3QoxN7zmyO0YJbfSJEs1yflRiYGMdsDMdaWrjAG5bwifOHXC8juou0JQfVYtesPArhA9I60MHhFsLSVBlVfqczYnsjhyKwbQp/uuAC+Xk71uaL2ityU2wFU1WvXqlp62OhenkbMnd74r2Q+DCJ24Z2FOBL0c0UVis7OYgJ7GpCByFjcvkZgWQWXG/N+u57rP5GQqD83G9I2VenLpmuEXZv+W+IJONMFmeFiQWS//QT3fEoxzkrBG5Ettu3mdFLVmfogBvWHQR869r4maVW+ZL/kqfnMotCzQQTp+7jeP4LCJHZmY7hJB0hMLXWWycrLvGBLDEYH1sIXSPTa66eOrnQ7G3v1KC4PBgKDDlRnCM/EB+6K3ofOvYgfWymPX9LhXEUa7FuNfVFcx+B+DGNkPYJzLav9JgPiO5VCru0DbrIYRmR1AyfQfgDskm4rFoAlt/8xtb2im/njA7GGQHDhHY+KLrBlcBo4cAg1YlwJlqJhG6Ppv0mY2KdF3BoEOXAB70n48WVV5UrhGxjaBWzjSr8WnvBebVWnetvHCTlj69T916DjdFRpN2w5P11D1mmmZycFKG//LaJlOntl0c9k6CprEdhZT4HFht/zoOHYWtvL44+hCtq+BbUSXiZn0rslUnYhzdQ2n5pVOoDnCYvAeyuVOiSN7ufP4Lx+QMJYMeS6kb3Oz2NE9s7dChN98Sp0c1XXx2AXsi5JYy3Q1h9+10Vmi9uSFRrtbxGYiCq+ght6V34DBfNWl4VclxGEYLLu5Mi8bE1R59/wMJvY41BInaNJlpq220ed5ACz5E/Qp6XOxdjpK3pqWt5LNp0PWykHd903hVbD7vmkmymTp4R7Ourkx9G8xyOANqr0jKjX7ddGOUTf/Qf/XlvhYubQsLngTTm2z/wHFSghO0vbwRS1RoX2q0289++qac6XZexV6e4pbF6VuxAjeAiDZxg9ZqNyI2Eujb3KuDbiaTh8H/FHqsPSiHIOAeN9NuN4mTsKEUnaVaINYLbDEYK3PKO8Emgx5BGQplaif8+dODHgQ2OFK81mmoU4pF+Xgcwg17CidGoAcMY1PCb5X8G72M0ysnbBa+AD6v+k3EnJFfBc+ikznT8lVx06y4kZTrrsrCNsU69Ns8MgPsN1YDEXJWVnjHhRTauXHBTgYkbS/xkSmmOARl5Cb/KDkS2TN+f8kQhSp1AVoMPPGkQDVPKCFLVprRExhPK/ixaaWaXnL5lMBnJar4XZTMIR/SOWe0Rh8zfCrgJWWA2RMSMtcSGJ3ZFHxCWCjjVLg2+BDKE0AfidkTfPhuYRfa0vt04hIL0/RvvJ+Q4dj4MbiBWy/zSWiG6029SMBKc/PTeVnHspBmizzCnUPRNIll9DcY1rZydBhzTW7J1OC4URftqy/LwoYVUtAR4xhx6vOewi5/UGJzbMIlZWKIpWkU3L2LDCbHHLFp1wqVAq+30uDnFOUPmgPtw+vPFi8HTyYgc9BWB3KvVxdwX/2bcGJilQJv26Qu6076mB41geLx9egLUlfXVlst5rkwUTqd0Pg+m126TCdxnPGptHKDK7XveyLhhVQG37g2/1PlV/oTveCJRuHkg3R7yWEQ/QcjNLkJlse4KT+bVlj0jlX4x0B2fWSYyzK5mqyrkgVbgNRyGOZTNVt9ZoJ52blg=}"
+      - usernamePassword:
+          description: "Nexus credentials"
+          id: "nexus-credentials"
+          password: "{AQAAABAAAAAwplSKLHF5AzTF+f2M33hMugHiGaeVvrdx4dZuKpwx2nt9neeoghfXjeGGjl2KjgyXtj35JsT9Cpb6o2BTpqcHvw==}"
+          scope: GLOBAL
+          username: "admin"
+      - usernamePassword:
+          description: "User Gitlab for Jenkins"
+          id: "user_gitlab_jenkins"
+          password: "{AQAAABAAAAAQIxXSybq2lMnS5pjeJVadgcpcc4zCQXOpFCMc3X3FOA4=}"
+          scope: GLOBAL
+          username: "usr_jenkins_umane"
+      - string:
+          description: "Token de Sonar para JEnkins. Permisos de analisis globales\
+            \ con expiración de 1 año"
+          id: "sonar-token-jenkins"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwN2u9KiAMPgChliYiLSiBi5n9u2H/GlgYpRiHri91gN1fLye9DOhdu2lcq+Adv6rU94Uvyge9tfP61D/DyvmU8Q==}"
+      - usernamePassword:
+          description: "Credenciales de renovacion de primaria de nexus"
+          id: "primaria-nexus-credentials"
+          password: "{AQAAABAAAAAgjiExEzSEK7is2juny4d7PMUWITJHB88DP+SWF9TT6hANHlEpYzOKT/M9AzDnRUdR}"
+          scope: GLOBAL
+          username: "publicuser"
+      - string:
+          description: "Token para publicar en Confluence"
+          id: "confluence-token"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwrn6Prv9EzmBcXLThcVEaci0O1HHQvKG/kfaOaOkhJLsAYfFBFuj8HbcsVWXlyLCd2LnOzR5QJmfCSDmJtgNNYQ==}"
+      - usernamePassword:
+          description: "acr-credentials"
+          id: "acr-credentials"
+          password: "{AQAAABAAAABAc8ii5L3kbPDAUm/gDEyQh11lPuWVgizbFqG9QzOGfaqZLn0lXs19jLHzZH4huSmkhInx5baCHcLQMget58nsB5d/8e+DE/qgjG6/Dbgq5N4=}"
+          scope: GLOBAL
+          username: "azudirayacont02"
+      - usernamePassword:
+          description: "Credenciales gitlab para ROCMWC"
+          id: "mfernabe"
+          password: "{AQAAABAAAAAwVXxxb+vVwaNX4Z1qAcaAuY1UCCFRA0/BUHm08ZzkWZpd4S4eX78aX3Cc2qgjxfn11NJUcUvVpwEHWNC9o5wt/Q==}"
+          scope: GLOBAL
+          username: "mfernabe"
+      - gitLabApiTokenImpl:
+          apiToken: "{AQAAABAAAAAwlv/7Jjst64HYmugf+sCggo098+xkWtKQbOpZE7LnVIuhrQK4/POiDuJQ3oy4o1eYWN4AFbN0vXGgSnT7/yyTGQ==}"
+          description: "API Gitlab para ROCMWC"
+          id: "ROCMWC"
+          scope: GLOBAL
+      - gitLabApiTokenImpl:
+          apiToken: "{AQAAABAAAAAwT++ab96Z4ULjhq3LHprFpT83Kohr9UBmHF3srso1KVfAEqcZUcz5f5JgdrGSvQCNgVwrcCUvWKm0kXxJVbs3Rw==}"
+          description: "ROCMWC - Gitlab API"
+          id: "ROCMWC Gitlab API"
+          scope: GLOBAL
+      - gitlabPersonalAccessToken:
+          description: "Credenciales para jenkins de mfernabe"
+          id: "531601da-8002-4707-be89-ceee3abfeca2"
+          scope: GLOBAL
+          token: "{AQAAABAAAAAg2R5T+btBUCB6WUzn33RfRWqcDhe45B5k6c8kZVvhMr/jRjqSnmv/h3BAPwZmuPoS}"
+      - usernamePassword:
+          description: "Nexus SAS CDN credentials (proxy)"
+          id: "nexus-sas-cdn-credentials"
+          password: "{AQAAABAAAAAgLC7zO2Yc6NqD2gHYQai1iyRcAiRDnC10KPi6DAkKk1fpYAipG/GQPhzAR/6nH++I}"
+          scope: GLOBAL
+          username: "publicuser"
+      - string:
+          description: "Token de autenticación para el Sonar del SAS"
+          id: "sonar-sas-token"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwVo+AtaG8GqvAMn4hDgTrYsuHfYLubO3/oqBLH9OUDqTHzXsbm831zO4fOXfmtrmxtbEq0+t64ULU7UI8z2DAVg==}"
+      - gitLabApiTokenImpl:
+          apiToken: "{AQAAABAAAAAgllzK/nIS7tY3mP4/2NHgsxAaF8KX2IcW0kLmHurqFGWVPG982c/CDT5DmwVr5do7}"
+          description: "SIGLO"
+          id: "1db28d41-0cf7-4496-ab6f-2579d4e5fe83"
+          scope: GLOBAL
+      domain: {
+        }
+    - credentials:
+      - gitLabApiTokenImpl:
+          apiToken: "{AQAAABAAAAAgfK9z/c4MyyKzP7RCEnvGSKCrAo7lXWcQi3vH3oCOeNV47Ho7mpyIBW7DdXON9riJ}"
+          id: "gitlab-api-token"
+          scope: GLOBAL
+      - usernamePassword:
+          description: "gitlab-token-misgarci"
+          id: "gitlab-token-misgarci"
+          password: "{AQAAABAAAAAgY5t9LEHysb7Kzd6jtigc42H5RmaG89PfAIDGW3NKHjJkU1FM3ZSpcVGsWPnOlnAv}"
+          scope: GLOBAL
+          username: "misgarci"
+      - string:
+          id: "maven-settings-xml"
+          scope: GLOBAL
+          secret: "{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}"
+      - file:
+          description: "config kubernetes"
+          fileName: "config"
+          id: "kubeconfig-aks"
+          scope: GLOBAL
+          secretBytes: "{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}"
+      domain:
+        description: "Prescriptor único Diraya - Servicio Andaluz de Salud"
+        name: "PDU"
+    - credentials:
+      - string:
+          id: "AZ_CLIENT_ID"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAw5H+QC/vYW3IY0Ef787SS0+wJ81IBpidHnWw4/4JafapvHsLIGv4rytB2OfpJJX+jcHSdDs5Ih5unXft+1mR/nA==}"
+      - string:
+          id: "AZ_CLIENT_SECRET"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwYjRl8PYAPX4IWE0a3fbxlNdlKWJPhWm79QlkiAAV3SJw+bMjvOA4upPhUdG3yKZLXLmn9sar22/0ZWh/q4hndg==}"
+      - string:
+          id: "AZ_TENANT_ID"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwAZuvY+pIyAcsDeHFDFlq5RTZzHs3ldprxY1/9tMvbRmKhV5IM2iOX48x5iumuv+3CIxSDeHWNVB5gRbluyRs9A==}"
+      - string:
+          id: "AZ_SUBSCRIPTION_ID"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwbd6yzZczsLa/WtC+L0BKYLiveJfG3WLwJ6qLq1B7NuHwg2a+gTv40DI3vXtzO/0uRUJBIEgHbibcS9RRsZrguQ==}"
+      domain:
+        description: "Credenciales de distintos tipos para acceder a Azure desde este\
+          \ Jenkins o para otros servicios"
+        name: "Azure (DIRAYA-DEV)"
+    - credentials:
+      - usernamePassword:
+          id: "ebecerrg"
+          password: "{AQAAABAAAAAgIxZQ+EbsjJ/fGbK5rqaUy06ASoqSOkiDorfKcg+zNGx2W4xnS9nHyn/dcC5bXovA}"
+          scope: GLOBAL
+          username: "ebecerrg@emeal.nttdata.com"
+      domain:
+        description: "Dominio de Mapa Único de Ubicaciones"
+        name: "MUU"
+    - credentials:
+      - usernamePassword:
+          id: "gp-credentials"
+          password: "{AQAAABAAAAAgMeGulxybTqj6nsIZzMmY6GHOOtMglETHoWuoaGnh7WwGFpzaFJnbDf7zPj5Gkwo0}"
+          scope: GLOBAL
+          username: "adimassi@emeal.nttdata.com"
+      domain:
+        description: "Gestor de procesos transversal - Servicio Andaluz de Salud"
+        name: "GP"
+    - credentials:
+      - gitLabApiTokenImpl:
+          apiToken: "{AQAAABAAAAAgzDiLCi0oLoCr5TV+tiITNJG+SOcFD61Ekw/zCtjrmJySaFUf1tsKMrwy3N8jthdg}"
+          description: "Token de mfernabe para siglo"
+          id: "mfernabe-siglo-token"
+          scope: GLOBAL
+      domain:
+        name: "SIGLO"
+  user: {
+    }
+jenkins:
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  clouds:
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      jenkinsTunnel: "jenkins-agent.cicd-tools.svc.cluster.local:50000"
+      jenkinsUrl: "http://jenkins.cicd-tools.svc.cluster.local:8080"
+      name: "kubernetes"
+      namespace: "cicd-tools"
+      podLabels:
+      - key: "jenkins/jenkins-jenkins-agent"
+        value: "true"
+      serverUrl: "https://kubernetes.default"
+      templates:
+      - containers:
+        - args: "^${computer.jnlpmac} ^${computer.name}"
+          envVars:
+          - envVar:
+              key: "JENKINS_URL"
+              value: "http://jenkins.cicd-tools.svc.cluster.local:8080/"
+          image: "jenkins/inbound-agent:3345.v03dee9b_f88fc-6"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jnlp"
+          resourceLimitCpu: "512m"
+          resourceLimitMemory: "512Mi"
+          resourceRequestCpu: "512m"
+          resourceRequestMemory: "512Mi"
+          workingDir: "/home/jenkins/agent"
+        id: "edd628deb5ffddf0a41df176a86a0052495c9878711b9a1ae5fb0745fa7f18b4"
+        label: "jenkins-jenkins-agent"
+        name: "jenkins-agent"
+        namespace: "cicd-tools"
+        nodeUsageMode: NORMAL
+        podRetention: "never"
+        serviceAccount: "default"
+        slaveConnectTimeout: 100
+        slaveConnectTimeoutStr: "100"
+        yamlMergeStrategy: "override"
+      - agentInjection: true
+        containers:
+        - args: "9999999"
+          command: "sleep"
+          image: "alpine/k8s:1.31.11"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "helm"
+          workingDir: "/home/jenkins/agent"
+        id: "8417e86b-384a-4380-9c42-02394b326e80"
+        label: "helm-agent"
+        name: "helm-agent"
+        namespace: "cicd-tools"
+        nodeUsageMode: NORMAL
+        serviceAccount: "jenkins-sa"
+        yamlMergeStrategy: "override"
+      - agentInjection: true
+        id: "c01a05a6-923e-45c7-b859-7160dc89ab38"
+        label: "kubectl-agent"
+        name: "kubectl-agent"
+        namespace: "cicd-tools"
+        nodeUsageMode: NORMAL
+        serviceAccount: "jenkins-sa"
+        yaml: |2
+
+          apiVersion: v1
+          kind: Pod
+          metadata:
+            labels:
+              jenkins: agent
+          spec:
+            serviceAccountName: jenkins-sa
+            containers:
+              - name: kubectl
+                image: gcr.io/cloud-builders/kubectl
+                command:
+                  - sleep
+                args:
+                  - infinity
+                tty: true
+        yamlMergeStrategy: "override"
+        yamls:
+        - |2
+
+          apiVersion: v1
+          kind: Pod
+          metadata:
+            labels:
+              jenkins: agent
+          spec:
+            serviceAccountName: jenkins-sa
+            containers:
+              - name: kubectl
+                image: gcr.io/cloud-builders/kubectl
+                command:
+                  - sleep
+                args:
+                  - infinity
+                tty: true
+      - containers:
+        - args: "9999999"
+          command: "sleep"
+          image: "python:3.11-slim"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "python-slim"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk21-sas201:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk21-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        id: "d52b95c8-10e5-4c5d-9e3b-1d3e06688190"
+        label: "python-slim-agent"
+        name: "python-slim-agent"
+        namespace: "cicd-tools"
+        yamlMergeStrategy: "override"
+      - agentInjection: true
+        containers:
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk21-sas201:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk21-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        id: "99ff5831-c076-44c6-8d3e-7916d4b9b1f7"
+        label: "microservicios-jdk21-sas-201-agent-arquetipo"
+        name: "microservicios-jdk21-sas-201-agent-arquetipo"
+        namespace: "cicd-tools"
+        yamlMergeStrategy: "override"
+      - id: "3fa97fbc-b1ce-4a4d-97c0-56baf67f06b1"
+        label: "newman-agent"
+        name: "newman-agent"
+        namespace: "cicd-tools"
+        yaml: |-
+          apiVersion: v1
+          kind: Pod
+          spec:
+            containers:
+              - name: newman
+                image: azudirayacont02.azurecr.io/jenkins-newman-agent:latest
+                command:
+                  - cat
+                tty: true
+        yamlMergeStrategy: "override"
+        yamls:
+        - |-
+          apiVersion: v1
+          kind: Pod
+          spec:
+            containers:
+              - name: newman
+                image: azudirayacont02.azurecr.io/jenkins-newman-agent:latest
+                command:
+                  - cat
+                tty: true
+      - agentInjection: true
+        containers:
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk21-sas:2.0.3"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk21-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "node:18-alpine"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "gcr.io/kaniko-project/executor:debug"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "kaniko"
+          workingDir: "/home/jenkins/agent"
+        id: "435ff2b8-243b-4a36-9ac3-0b5f5e2c513a"
+        label: "microservicios-jdk21-sas-201-agent"
+        name: "microservicios-jdk21-sas-201-agent"
+        namespace: "cicd-tools"
+        nodeUsageMode: NORMAL
+        serviceAccount: "jenkins-sa"
+        volumes:
+        - secretVolume:
+            mountPath: "/kaniko/.docker"
+            optional: false
+            secretName: "acr-docker-config"
+        yaml: |-
+          spec:
+            hostAliases:
+              - ip: "10.0.63.181"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+        yamlMergeStrategy: "override"
+        yamls:
+        - |-
+          spec:
+            hostAliases:
+              - ip: "10.0.63.181"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+      - agentInjection: true
+        containers:
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk11-sas:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk11-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "node:18-alpine"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "gcr.io/kaniko-project/executor:debug"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "kaniko"
+          workingDir: "/home/jenkins/agent"
+        id: "41996a6d-42e9-4454-9238-86986a8496e0"
+        label: "microservicios-jdk21-sas-201-agent"
+        name: "microservicios-jdk21-sas-201-agent"
+        namespace: "cicd-tools"
+        serviceAccount: "jenkins-sa"
+        volumes:
+        - secretVolume:
+            mountPath: "/kaniko/.docker"
+            optional: false
+            secretName: "acr-docker-config"
+        yaml: |-
+          spec:
+            hostAliases:
+              - ip: "10.0.63.181"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+        yamlMergeStrategy: "override"
+        yamls:
+        - |-
+          spec:
+            hostAliases:
+              - ip: "10.0.63.181"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+      - containers:
+        - args: "9999999"
+          command: "sleep"
+          envVars:
+          - envVar:
+              key: "NPM_CONFIG_CACHE"
+              value: "/home/jenkins/.npm"
+          image: "alpine/git:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "git"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "gcr.io/kaniko-project/executor:debug"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "kaniko"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-node-sas:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-sas"
+          workingDir: "/home/jenkins/agent"
+        id: "c841a883-e12e-4c87-9638-9d240ccf62b8"
+        label: "frontend-node-sas-agent"
+        name: "frontend-node-sas-agent"
+        namespace: "cicd-tools"
+        volumes:
+        - secretVolume:
+            mountPath: "/kaniko/.docker"
+            optional: false
+            secretName: "acr-docker-config"
+        - persistentVolumeClaim:
+            claimName: "npm-cache-pvc"
+            mountPath: "/home/jenkins/.npm"
+            readOnly: false
+        yaml: |
+          spec:
+            hostAliases:
+              - ip: "10.0.1.103"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+
+            tolerations:
+              - key: "kubernetes.azure.com/scalesetpriority"
+                operator: "Equal"
+                value: "spot"
+                effect: "NoSchedule"
+
+            nodeSelector:
+              kubernetes.azure.com/scalesetpriority: spot
+        yamlMergeStrategy: "override"
+        yamls:
+        - |
+          spec:
+            hostAliases:
+              - ip: "10.0.1.103"
+                hostnames:
+                  - "dml-si.sas.junta-andalucia.es"
+
+            tolerations:
+              - key: "kubernetes.azure.com/scalesetpriority"
+                operator: "Equal"
+                value: "spot"
+                effect: "NoSchedule"
+
+            nodeSelector:
+              kubernetes.azure.com/scalesetpriority: spot
+      - agentInjection: true
+        containers:
+        - alwaysPullImage: true
+          args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk21-sas201:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk21-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "node:18-alpine"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "gcr.io/kaniko-project/executor:debug"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "kaniko"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/pdu/arquitectura/docker/node:1.0.0_18-puppeteer"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18-puppeteer"
+          workingDir: "/home/jenkins/agent"
+        id: "7693ffee-8d55-4b87-b2b5-9c8f17c59528"
+        label: "backend-jdk21-sas-agent"
+        name: "backend-jdk21-sas-agent"
+        namespace: "cicd-tools"
+        nodeSelector: "workload=pool-cicd"
+        nodeUsageMode: NORMAL
+        serviceAccount: "jenkins-sa"
+        volumes:
+        - secretVolume:
+            mountPath: "/kaniko/.docker"
+            optional: false
+            secretName: "acr-docker-config"
+        yamlMergeStrategy: "override"
+      - agentInjection: true
+        containers:
+        - alwaysPullImage: true
+          args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/jenkins-mvnjdk11-sas201:latest"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "jdk11-mvn-sas201"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "node:18-alpine"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "gcr.io/kaniko-project/executor:debug"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "kaniko"
+          workingDir: "/home/jenkins/agent"
+        - args: "9999999"
+          command: "sleep"
+          image: "azudirayacont02.azurecr.io/pdu/arquitectura/docker/node:1.0.0_18-puppeteer"
+          livenessProbe:
+            failureThreshold: 0
+            initialDelaySeconds: 0
+            periodSeconds: 0
+            successThreshold: 0
+            timeoutSeconds: 0
+          name: "node-18-puppeteer"
+          workingDir: "/home/jenkins/agent"
+        id: "df6185ea-3bb0-482a-9a9a-4cae4f3d66f6"
+        label: "microservicios-jdk11-sas-201-agent"
+        name: "backend-jdk11-sas-201-agent"
+        namespace: "cicd-tools"
+        nodeSelector: "workload=pool-cicd"
+        nodeUsageMode: NORMAL
+        serviceAccount: "jenkins-sa"
+        volumes:
+        - secretVolume:
+            mountPath: "/kaniko/.docker"
+            optional: false
+            secretName: "acr-docker-config"
+        yamlMergeStrategy: "override"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: true
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "org.jenkinsci.plugins.github.admin.GitHubDuplicateEventsMonitor"
+  - "GitHubHookRegisterProblemMonitor"
+  - "hudson.util.DoubleLaunchChecker"
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "NEXUS_HOST"
+        value: "dml-sas.10.200.201.76.nip.io"
+      - key: "NEXUS_HOST_AKS"
+        value: "http://10.200.201.109:8081/"
+  labelAtoms:
+  - name: "backend-jdk21-sas-agent"
+  - name: "built-in"
+  - name: "frontend-node-sas-agent"
+  - name: "helm-agent"
+  - name: "jenkins-jenkins-agent"
+  - name: "kubectl-agent"
+  - name: "microservicios-jdk11-sas-201-agent"
+  - name: "microservicios-jdk21-sas-201-agent"
+  - name: "microservicios-jdk21-sas-201-agent-arquetipo"
+  - name: "newman-agent"
+  - name: "python-slim-agent"
+  log: {
+    }
+  markupFormatter: "plainText"
+  mode: NORMAL
+  nodeMonitors:
+  - "architecture"
+  - "clock"
+  - diskSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "swapSpace"
+  - tmpSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "responseTime"
+  numExecutors: 0
+  primaryView:
+    all:
+      description: "Servidor de automatización y CICD para entorno de desarrollo propio\
+        \ de NTT DATA para los proyectos y entregas del SAS"
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "admin"
+        name: "Jenkins Admin"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "mailer"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+      - id: "convivencia"
+        name: "Línea Convivencia"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+      - id: "fhir"
+        name: "Línea FHIR"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+      - id: "front"
+        name: "Línea Front"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+      - id: "orquestacion"
+        name: "Línea Orquestación"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+      - id: "team-citacion"
+        name: "Team Citacion rules!"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "teamcitacion@emeal.nttdata.com"
+      - id: "team-ecu"
+        name: "Team ECU"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "fperefer@emeal.nttdata.com"
+      - id: "team-gp"
+        name: "Equipo de gestor de procesos"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "adimasi@emeal.nttdata.com"
+      - id: "team-health"
+        name: "Team Health SAS"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "nomail@asdasdasdsdas.com"
+      - id: "team-ia"
+        name: "team-ia"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-ia@team-ia.boludo"
+      - id: "team-muu"
+        name: "Team MUU"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - "experimentalFlags"
+        - "consoleUrlProvider"
+        - mailer:
+            emailAddress: "ebecerrg@emeal.nttdata.com"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "apiToken"
+        - "sshPublicKey"
+      - id: "team-navegador"
+        name: "team-navegador"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-navegador@team-navegador.as"
+      - id: "team-pdpccu"
+        name: "Team PDPCCU"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-pdpccu@team-pdpccu.com"
+      - id: "team-pdu"
+        name: "Team PDU"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+      - id: "team-reglas-formula"
+        name: "Team reglas"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-reglas-formula@team-reglas-formula.com"
+      - description: "Cuenta para el proyecto ROCMWC"
+        id: "team-rocmwc"
+        name: "team-rocmwc"
+        properties:
+        - "favorite"
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-rocmwc@team-rocmwc.com"
+      - description: "Equipo de SIGLO legacy"
+        id: "team-siglo"
+        name: "Equipo SIGLO"
+        properties:
+        - "apiToken"
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "team-siglo@team-siglo.es"
+        - "favorite"
+        - preferredProvider:
+            providerId: "default"
+        - timezone: {
+            }
+        - theme:
+            theme: "noOp"
+        - "consoleUrlProvider"
+        - customHeader:
+            enabled: true
+            headerColor:
+              backgroundColor: "linear-gradient(45deg in oklch, var(--red), var(--orange),\
+                \ var(--yellow), var(--green), var(--blue), var(--indigo), var(--purple))"
+              color: "var(--white)"
+              userColors: true
+      - id: "team_dbs"
+        name: "Team DBS"
+        properties:
+        - theme:
+            theme: "noOp"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "favorite"
+        - myView:
+            viewsTabBar: "standard"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "experimentalFlags"
+        - mailer:
+            emailAddress: "miguel.dorado.gomez@emeal.nttdata.com"
+      - id: "transversal"
+        name: "Usuario transversal PDU"
+        properties:
+        - "favorite"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - myView:
+            viewsTabBar: "standard"
+        - theme:
+            theme: "noOp"
+        - "experimentalFlags"
+        - "consoleUrlProvider"
+        - mailer:
+            emailAddress: "coordinacion.prescriptor.unico@emeal.nttdata.com"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - "apiToken"
+        - "sshPublicKey"
+      - id: "user"
+        name: "user"
+        properties:
+        - "favorite"
+        - "apiToken"
+        - "consoleUrlProvider"
+        - myView:
+            viewsTabBar: "standard"
+        - "timezone"
+        - "experimentalFlags"
+        - customHeader:
+            headerColor:
+              backgroundColor: "inherit"
+              color: "inherit"
+              userColors: true
+        - "viewsTabBar"
+        - "mailer"
+        - preferredProvider:
+            providerId: "default"
+        - theme:
+            theme: "noOp"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      description: "Servidor de automatización y CICD para entorno de desarrollo propio\
+        \ de NTT DATA para los proyectos y entregas del SAS"
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  consoleUrlProvider: {
+    }
+  customHeader:
+    enabled: true
+    header: "jenkins"
+    headerColor:
+      backgroundColor: "linear-gradient(#3465A4, #89A3DC calc(100% - 4px), #087021\
+        \ calc(100% - 4px), #087021) no-repeat"
+      color: "var(--white)"
+    logo:
+      symbol:
+        symbol: "symbol-jenkins"
+    logoText: "Jenkins Transversal - Servicio Andaluz de Salud"
+    thinHeader: false
+  loginTheme:
+    head: "NTT DATA"
+    useDefaultTheme: true
+  prism:
+    theme: PRISM
+  themeManager:
+    disableUserThemes: false
+    theme: "noOp"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  apiTokenProperty: {
+    }
+  cps:
+    hideSandbox: false
+  crumb: {
+    }
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: true
+  prism: {
+    }
+  queueItemAuthenticator: {
+    }
+  sSHD:
+    port: -1
+  scriptApproval:
+    approvedScriptHashes:
+    - "SHA512:026e9f630a87d5d91625e2ea39c5635618b2cc1613dc1570220b166d3b3119ee71889c1b166715f88f1b3e50c9607b60ec4d1fe8eae0478e943183ff8368b5bd"
+    - "SHA512:0434faacb0e42633c2cda7592e10d5b1914ce8af0a49fc5235c5e573a0f9e297656c3b8f77df83bf071b1a638a863ce3714b1e795fad22ecb6031cc69e614b81"
+    - "SHA512:0a66b9ad2a8bbea5e184b6bf9464ffe49d70db6f13acc1fcde49127c58cc8d93b47571af73e8e36d4827dec87e3d242b3c5104374ce7ecf52944b6a49a5f6ff1"
+    - "SHA512:14b37d3660e53f01c5a78ce1ee1f63e3714d1253e35735bc2186e8630eeb1a5b5796dd4e81d20c1d7940c0552ea6059657327b87161c35e848834aa77313cad1"
+    - "SHA512:1a6a17ab45f6ea50b6f0842c9c94901cb984c2e8953ce23805468a6b94386a4b9ef0baa565c695057c4b6929815eea4e7f1c8751fe44fb15a6731e0a554a3b5e"
+    - "SHA512:283da35107483c219f052ecc257b86759f9b9eef1b13e62194542901b6c1f8ab3a8e840a83bc6ed4b911a901cdd051616e35a77f0f1d534fd1f237c997cf2cf5"
+    - "SHA512:36b393dc8a48e526d53ce0b0a6cb3b9c58a8d2638cdfeea45fe4acda23d5e9c49e628cc34a11ee89523e12d00e55686392a08b30702fac1ef91b2420ddfa1ed3"
+    - "SHA512:3794c1a4701e851e47e855bf8057fd23f0e91dc1e1e999a661a4cf86866708e179926231491c5dcb61ea33ca308126253ac134a0da6676282cc8ecb4bad4ebf6"
+    - "SHA512:40c87b3a54de63fc3b03263c729446dd12f2334b5f86296b964e553770064948bfc703bf440a34b2d5509a2aff01a45405d8a0a06c87f943b045084de5ccf2b3"
+    - "SHA512:47d8b46f298eac37356da5abc7ae48af08bcd5140a2b89c56a7fd694f32cc7b8e5639834c7c73e24c75383da33b37630fa2198e72b0ed694452bab1d40801118"
+    - "SHA512:54c62c8f33bb3a2f412e2efa48aac92e74dd6df84f2223a7bca9b6120b0ab90b626d593669390ec1e8ef3d660b073af6185a1f60693f584fa7d4de3bbadd56f7"
+    - "SHA512:6357ca8676b86e433abdc713abcbb31b985ddb863a16ae047b19c249fa38a55b9a92d9b6e84c9ead80828266b8eece44202cce1655a645cd39fdce1d63d1a347"
+    - "SHA512:649b40b53b10938ea496798422c923306b1ad7f59eff9081cd19a6f70d10b9e3a2ac847cb6d4377571f2ee41e1c1adb22cf7406b38fdf931b5f51258fa12aec7"
+    - "SHA512:88c3e2e0b86c6c959c85b7a2893a3383710e3c17d4740fced7b29f29b055c0a3c2f29315af86465d8162391dd23c48b284424a4f44534fd9e13274bdfc10d6e8"
+    - "SHA512:8ea8a216dc5d2b7b88181cbb540829d50cb907e998fbe320a42066f4eacc14d8d58d5c88ec0c03715104cfd925cfcbda9ed8b3aab87268d0281937695858d88b"
+    - "SHA512:90e6ad2542729963200ac8f7864bbc6733cced45741f1a1fd2f420a1624e1b85e9dd6f8ee65e6abc35479718ed0b2e8a56c87eb64fe779164609b75af105a942"
+    - "SHA512:9dc424e1ab6e06df50d71afea9baa16675b6a36900a018dc697f68582c34a24fc89b725063b090ac77563db7a9b81655d50a217d08071991a7d3fc3d030e2375"
+    - "SHA512:9f9ed060fb831b421bd0d134418e5137b5b957d5f10f67d5060b655d594cda938e7101beb8168c3a7944e2def42202af9d017f1df3f4d4a309e539a821157af3"
+    - "SHA512:a873c9894f45325cbdfaade11e900805cd96aa2f584145a23c2616d123047e8fdb63de2198050f247dffd9aa6d7022ed1ce57a812301661a8fa831d99efe6639"
+    - "SHA512:ab6f93f990a5f3346b1c074d597ea704c76a86dda5cc43e00b70f09fba5b3f35d8670e6e967587c4142e6c843a1669b817884b9d20a6528b094460a8046e8c6d"
+    - "SHA512:ad5d6093d54bbe1450984b76b3e4227bd8eb72197a23ec7b93c7be9904e2bbe99e08dca001d10e0bdf5426fb4378681fd57540ebf51d2b245b1593975abc3ac4"
+    - "SHA512:b0f817959123fd5406016a3293319945d2185c72d0f5a276fe17cf3ffc7bc19b1f190b010c0d9db613297f1b10d5c837982bd4dde02de78af57e59792f080f39"
+    - "SHA512:b2617458750a2b3a31563915c2f515205917c1618dc5dc27ff8ddac5ec93a46aa3ce4101f01fc8c6016be5bfe9233ee48134e01200d7117e6b41f31d6f4b6a63"
+    - "SHA512:b5efa4c3a2ab478b26d2bab038b508f4435f16b30baea71077d38217ca043ee4af99271b980a097ff6142dab6efec777c2d6580e85342eb720d9e1648dbe2e19"
+    - "SHA512:b84a25ded7ac1c48cc2052be2580f10b04d7e416ac6b7db01153e65783811c475289ffc4a807c805a70ec46cc984b42495e4493929ad61222b70685ec75adfdf"
+    - "SHA512:c4357c122ef1b4ee459131979347f1eddbe5d057be79a0bc2703c80e9613bba0611e7c300a36f42700dcc6d61ead7d137a57826d9923a5a4012f4885f495f4d2"
+    - "SHA512:c5d49ebe24afe2c1a96a75bfa8ae053877ac5cfb623f8faeadf829889817bf255044408a042ef8c5565af0d9053b5ffa1f0cd78c763847fa79ab6164cfc8cacc"
+    - "SHA512:c7d3a552dacbc3e4bc772e94870c40fef233f427738f6323826058b5ada55a4e7736311c8be91fe670fb26b06b8fbbc1b70093ac9d6919e589f9d66a84946b87"
+    - "SHA512:c8b2b011ceb4e98585a57b5a3e44ebe361c11884b18892cf213e712f40cef1d8e5a51bfd4332e826c7a933990e0da1aa4d49227f87228c7ea998e0c98b6f05c9"
+    - "SHA512:cbd88b4436f3b713f3c6dcc8e77aeea899b7b16a77fb4fa7b87b9db261d5e3dfe8c07dc6491c5257f3932f8452a0bbdb87c5a17b33a4b0dda8d2446e36cfc9b8"
+    - "SHA512:dfab908e81a585360850e235a997fdb43ea8a41f2f7829a88830679c5bfbbfd317e9703556110a1bcc1d6cc1a3948832b72d4482c2b35c77a336992311eb9194"
+    - "SHA512:e0d274c49ec424edb91e0eb336a3d121fc51e5c332e689ab01bee4ca58198935cfbe8f021d18620e88fcec13b9b715ee8cbdf174891a1cb429ef31731bf86a2b"
+    - "SHA512:e89b6b5b3fcfd0aa73f5132aa936ff0e1c3ae782c4f8af88a0faf02fa5409836068296d360ffe3d4748f7f90b4a2b5e53dfd65b6c5c37a761758f6b4bc60d0b9"
+    approvedSignatures:
+    - "method groovy.lang.GroovyObject getProperty java.lang.String"
+    - "method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object"
+    - "staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods invokeMethod\
+      \ java.lang.Object java.lang.String java.lang.Object"
+    - "staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods putAt java.lang.Object\
+      \ java.lang.String java.lang.Object"
+    forceSandbox: false
+  updateSiteWarningsConfiguration: {
+    }
+unclassified:
+  administrativeMonitorsConfiguration: {
+    }
+  ansiColorBuildWrapper:
+    colorMaps:
+    - black: "#000000"
+      blackB: "#4C4C4C"
+      blue: "#1E90FF"
+      blueB: "#4682B4"
+      cyan: "#00CDCD"
+      cyanB: "#00FFFF"
+      green: "#00CD00"
+      greenB: "#00FF00"
+      magenta: "#CD00CD"
+      magentaB: "#FF00FF"
+      name: "xterm"
+      red: "#CD0000"
+      redB: "#FF0000"
+      white: "#E5E5E5"
+      whiteB: "#FFFFFF"
+      yellow: "#CDCD00"
+      yellowB: "#FFFF00"
+    - black: "#000000"
+      blackB: "#555555"
+      blue: "#0000AA"
+      blueB: "#5555FF"
+      cyan: "#00AAAA"
+      cyanB: "#55FFFF"
+      defaultBackground: 0
+      defaultForeground: 7
+      green: "#00AA00"
+      greenB: "#55FF55"
+      magenta: "#AA00AA"
+      magentaB: "#FF55FF"
+      name: "vga"
+      red: "#AA0000"
+      redB: "#FF5555"
+      white: "#AAAAAA"
+      whiteB: "#FFFFFF"
+      yellow: "#AA5500"
+      yellowB: "#FFFF55"
+    - black: "black"
+      blackB: "black"
+      blue: "blue"
+      blueB: "blue"
+      cyan: "cyan"
+      cyanB: "cyan"
+      green: "green"
+      greenB: "green"
+      magenta: "magenta"
+      magentaB: "magenta"
+      name: "css"
+      red: "red"
+      redB: "red"
+      white: "white"
+      whiteB: "white"
+      yellow: "yellow"
+      yellowB: "yellow"
+    - black: "#2E3436"
+      blackB: "#2E3436"
+      blue: "#3465A4"
+      blueB: "#3465A4"
+      cyan: "#06989A"
+      cyanB: "#06989A"
+      defaultBackground: 0
+      defaultForeground: 7
+      green: "#4E9A06"
+      greenB: "#4E9A06"
+      magenta: "#75507B"
+      magentaB: "#75507B"
+      name: "gnome-terminal"
+      red: "#CC0000"
+      redB: "#CC0000"
+      white: "#D3D7CF"
+      whiteB: "#D3D7CF"
+      yellow: "#C4A000"
+      yellowB: "#C4A000"
+  artifactManager: {
+    }
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+        webhook:
+          cloudWebhook:
+            enableHookSignature: false
+            manageHooks: false
+            webhooksCacheDuration: 180
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  builtInNode: {
+    }
+  casCGlobalConfig:
+    configurationPath: "/tmp/podtemplates.yaml"
+  collapsingSectionNote:
+    sections:
+    - collapseOnlyOneLevel: true
+      collapseSection: true
+      sectionDisplayName: "{1}"
+      sectionEndPattern: "^.*\\[SECTION\\]\\s+END\\s+(.+)\\s*$"
+      sectionStartPattern: "^.*\\[SECTION\\]\\s+START\\s+(.+)\\s*$"
+  computerRetentionCheckInterval: {
+    }
+  defaultDisplayUrlProvider: {
+    }
+  defaultFolderConfiguration: {
+    }
+  defaultView: {
+    }
+  envVarsFilter: {
+    }
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://10.200.200.83/github-webhook/"
+  gitLabConnectionConfig:
+    connections:
+    - apiTokenId: "gitlab-api-token"
+      clientBuilderId: "autodetect"
+      connectionTimeout: 10
+      ignoreCertificateErrors: false
+      name: "GitLab Umane Ntt"
+      readTimeout: 10
+      url: "https://umane.emeal.nttdata.com/git/"
+    useAuthenticatedEndpoint: true
+  gitLabServers:
+    servers:
+    - credentialsId: "531601da-8002-4707-be89-ceee3abfeca2"
+      name: "Gitlab Umane ntt"
+      serverUrl: "https://umane.emeal.nttdata.com/git/"
+  globalConfigFiles:
+    configs:
+    - mavenSettings:
+        comment: "User settings xml for Nexus Repository of the NTTDATA Developers\
+          \ Environment for PDU-LIBRARIES in Nexus Repository"
+        content: |-
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+            <localRepository>/usr/share/maven/ref/repository</localRepository>
+
+            <servers>
+              <server>
+                <id>pdu-libraries</id>
+                <username>^${NEXUS_USER}</username>
+                <password>^${NEXUS_PASS}</password>
+              </server>
+            </servers>
+
+            <profiles>
+              <profile>
+                <id>sas-offline</id>
+                <repositories>
+                  <repository>
+                    <id>sas_nexus_releases</id>
+                    <url>https://dml-si.sas.junta-andalucia.es/repository/maven/</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>false</enabled></snapshots>
+                  </repository>
+                </repositories>
+              </profile>
+            </profiles>
+
+            <activeProfiles>
+              <activeProfile>sas-offline</activeProfile>
+            </activeProfiles>
+          </settings>
+        id: "5864ddcc-ae8f-495c-b2bc-320fdd06b4ba"
+        isReplaceAll: true
+        name: "maven-settings-nexus-ntt-pdu-libraries"
+        providerId: "org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig"
+        serverCredentialMappings:
+        - credentialsId: "nexus-credentials"
+          serverId: "pdu-libraries"
+    - mavenSettings:
+        comment: "Settings con acceso al Nexus del SAS mediante proxy y al Nexus de\
+          \ Azure, es un settings para tener accesos a ambos sitios"
+        content: |
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+              <localRepository>./m2/repository</localRepository>
+
+              <profiles>
+                  <profile>
+                      <id>SAS</id>
+                      <activation>
+                          <activeByDefault>true</activeByDefault>
+                      </activation>
+                      <repositories>
+                          <repository>
+                              <id>central</id>
+                              <url>https://repo.maven.apache.org/maven2</url>
+                              <releases>
+                                  <enabled>true</enabled>
+                              </releases>
+                              <snapshots>
+                                  <enabled>true</enabled>
+                              </snapshots>
+                          </repository>
+                          <repository>
+                              <id>sas_nexus_snapshot</id>
+                              <url>http://dml-sas.10.200.201.76.nip.io/repository/maven-snapshot/</url>
+                              <snapshots>
+                                  <enabled>true</enabled>
+                                  <updatePolicy>always</updatePolicy>
+                              </snapshots>
+                              <releases>
+                                  <enabled>false</enabled>
+                              </releases>
+                          </repository>
+                          <repository>
+                              <id>sas_nexus_releases</id>
+                              <url>http://dml-sas.10.200.201.76.nip.io/repository/maven/</url>
+                              <releases>
+                                  <enabled>true</enabled>
+                              </releases>
+                              <snapshots>
+                                  <enabled>false</enabled>
+                              </snapshots>
+                          </repository>
+                       <repository>
+                          <id>pdu-libraries</id>
+                              <url>http://10.200.201.109:8081/repository/pdu-libraries-test/</url>
+                              <releases><enabled>true</enabled><updatePolicy>never</updatePolicy></releases>
+                              <snapshots><enabled>true</enabled><updatePolicy>never</updatePolicy></snapshots>
+                          </repository>
+                      </repositories>
+                  </profile>
+              </profiles>
+
+              <servers>
+                  <server>
+                      <id>sas_nexus_releases</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+                  <server>
+                      <id>sas_nexus_snapshot</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+                  <server>
+                      <id>sas-nexus</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+                        <server>
+                      <id>pdu-libraries</id>
+                      <username>admin</username>
+                      <password>R1AKJ8hW#MFZxUcU6u*wb7JuqUsUUgdrMYy</password>
+                  </server>
+                  <server>
+                      <id>allow-http</id>
+                      <username>admin</username>
+                      <password>R1AKJ8hW#MFZxUcU6u*wb7JuqUsUUgdrMYy</password>
+                  </server>
+              </servers>
+
+              <mirrors>
+                  <mirror>
+                      <id>sas-nexus</id>
+                      <name>SAS Nexus</name>
+                      <url>http://dml-sas.10.200.201.76.nip.io/repository/maven/</url>
+                      <mirrorOf>sas_nexus_snapshot,sas_nexus_releases</mirrorOf>
+                  </mirror>
+                  <mirror>
+                      <id>allow-http</id>
+                      <name>Allow HTTP</name>
+                      <url>http://10.200.201.109:8081/repository/pdu-libraries-test/</url>
+                      <mirrorOf>external:http:*</mirrorOf>
+                  </mirror>
+              </mirrors>
+
+              <activeProfiles>
+                  <activeProfile>SAS</activeProfile>
+              </activeProfiles>
+
+          </settings>
+        id: "6414bb91-2e60-47b3-b1bc-16e93b227e78"
+        isReplaceAll: true
+        name: "settings-proxy-dml-sas/azure"
+        providerId: "org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig"
+    - custom:
+        content: "dirayaPipeline()"
+        id: "Jenkinsfile"
+        name: "Jenkinsfile"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        comment: "Jenkinsfile para pruebas de la Pipeline (shared library)"
+        content: |-
+          // Jenkinsfile-DEV (para sandbox)
+          sasPipelineDev()
+        id: "Jenkinsfile-DEV"
+        name: "Jenkinsfile-DEV"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - custom:
+        comment: "Fichero de NPM con URL de Nexus Repository directo al SAS mediante\
+          \ proxy para obtener las dependencias del SAS al momento de compilar"
+        content: |-
+          @sas:registry=http://dml-sas.10.200.201.76.nip.io/repository/npm-sas/
+          //dml-sas.10.200.201.76.nip.io/repository/npm-sas/:_authToken=^${NPM_TOKEN}
+        customizedCredentialMappings:
+        - credentialsId: "nexus-sas-cdn-credentials"
+          tokenKey: "NPM_TOKEN"
+        id: "cc857501-fa8c-41b8-9272-7dd4b0078182"
+        name: "npmrc-cdn-sas (no se usa)"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+    - mavenSettings:
+        comment: "User settings xml for Nexus Repository of the NTTDATA Developers\
+          \ Environment"
+        content: |-
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+              <localRepository>/usr/share/maven/ref/repository</localRepository>
+
+              <mirrors>
+                  <mirror>
+                      <id>allow-http</id>
+                      <name>Allow HTTP</name>
+                      <url>http://10.200.201.109:8081/repository/pdu-libraries-test/</url>
+                      <mirrorOf>external:http:*</mirrorOf>
+                  </mirror>
+              </mirrors>
+
+              <profiles>
+                  <profile>
+                      <id>sas-offline</id>
+                      <repositories>
+                          <repository>
+                              <id>pdu-libraries</id>
+                              <url>http://10.200.200.156:8081/repository/pdu-libraries-test/</url>
+                              <releases><enabled>true</enabled><updatePolicy>never</updatePolicy></releases>
+                              <snapshots><enabled>true</enabled><updatePolicy>never</updatePolicy></snapshots>
+                          </repository>
+                          <repository>
+                              <id>sas_nexus_releases</id>
+                              <url>https://dml-si.sas.junta-andalucia.es/repository/maven/</url>
+                              <releases><enabled>true</enabled></releases>
+                              <snapshots><enabled>false</enabled></snapshots>
+                          </repository>
+                      </repositories>
+                      </profile>
+              </profiles>
+
+              <servers>
+                  <server>
+                      <id>pdu-libraries</id>
+                      <username>admin</username>
+                      <password>R1AKJ8hW#MFZxUcU6u*wb7JuqUsUUgdrMYy</password>
+                  </server>
+                  <server>
+                      <id>allow-http</id>
+                      <username>admin</username>
+                      <password>R1AKJ8hW#MFZxUcU6u*wb7JuqUsUUgdrMYy</password>
+                  </server>
+              </servers>
+
+              <activeProfiles>
+                  <activeProfile>sas-offline</activeProfile>
+              </activeProfiles>
+
+          </settings>
+        id: "e324efd7-268a-4f01-aa2a-08a4730a0576"
+        isReplaceAll: true
+        name: "maven-settings-nexus-ntt"
+        providerId: "org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig"
+    - mavenSettings:
+        comment: "Setting xml para DML del SAS mediante CDN"
+        content: |
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+              <localRepository>./m2/repository</localRepository>
+
+              <profiles>
+                  <profile>
+                      <id>SAS</id>
+                      <activation>
+                          <activeByDefault>true</activeByDefault>
+                      </activation>
+                      <repositories>
+                          <repository>
+                              <id>central</id>
+                              <url>https://repo.maven.apache.org/maven2</url>
+                              <releases>
+                                  <enabled>true</enabled>
+                              </releases>
+                              <snapshots>
+                                  <enabled>true</enabled>
+                              </snapshots>
+                          </repository>
+                          <repository>
+                              <id>sas_nexus_snapshot</id>
+                              <url>http://dml-sas.10.200.201.76.nip.io/repository/maven-snapshot/</url>
+                              <snapshots>
+                                  <enabled>true</enabled>
+                                  <updatePolicy>always</updatePolicy>
+                              </snapshots>
+                              <releases>
+                                  <enabled>false</enabled>
+                              </releases>
+                          </repository>
+                          <repository>
+                              <id>sas_nexus_releases</id>
+                              <url>http://dml-sas.10.200.201.76.nip.io/repository/maven/</url>
+                              <releases>
+                                  <enabled>true</enabled>
+                              </releases>
+                              <snapshots>
+                                  <enabled>false</enabled>
+                              </snapshots>
+                          </repository>
+                      </repositories>
+                  </profile>
+              </profiles>
+
+              <servers>
+                  <server>
+                      <id>sas_nexus_releases</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+                  <server>
+                      <id>sas_nexus_snapshot</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+                  <server>
+                      <id>sas-nexus</id>
+                      <username>publicuser</username>
+                      <password>AgQ2ptBsuVYFuG7G</password>
+                  </server>
+              </servers>
+
+              <mirrors>
+                  <mirror>
+                      <id>sas-nexus</id>
+                      <name>SAS Nexus</name>
+                      <url>http://dml-sas.10.200.201.76.nip.io/repository/maven/</url>
+                      <mirrorOf>sas_nexus_snapshot,sas_nexus_releases</mirrorOf>
+                  </mirror>
+              </mirrors>
+
+              <activeProfiles>
+                  <activeProfile>SAS</activeProfile>
+              </activeProfiles>
+
+          </settings>
+        id: "e41ea4aa-c073-49ab-ab06-68ee0873cad5"
+        isReplaceAll: true
+        name: "settings-sas-cdn"
+        providerId: "org.jenkinsci.plugins.configfiles.maven.MavenSettingsConfig"
+    - custom:
+        comment: "Fichero de NPM con URL de Nexus Repository NTTDATA para obtener\
+          \ las dependencias del SAS al momento de compilar"
+        content: |-
+          @sas:registry=http://10.200.200.156:8081/repository/npm-sas/
+          //10.200.200.156:8081/repository/npm-sas/:username=admin
+          //10.200.200.156:8081/repository/npm-sas/:password=R1AKJ8hW#MFZxUcU6u*wb7JuqUsUUgdrMYy
+        id: "fd134603-1eed-4168-8483-bb3271556968"
+        name: "npmrc (no se usa)"
+        providerId: "org.jenkinsci.plugins.configfiles.custom.CustomConfig"
+  globalDefaultFlowDurabilityLevel: {
+    }
+  globalLibraries:
+    libraries:
+    - defaultVersion: "main"
+      implicit: true
+      includeInChangesets: false
+      name: "sas-pipeline-library"
+      retriever:
+        modernSCM:
+          libraryPath: "./"
+          scm:
+            gitSource:
+              credentialsId: "gitlab-token-misgarci"
+              id: "47ce32cf-8538-4beb-843e-0c0b1b711823"
+              remote: "https://umane.emeal.nttdata.com/git/SWFPRESUNISWFPRESCRI/tools/devops/swfpresuni-tools-devops-jenkins-shared-library"
+              traits:
+              - "gitBranchDiscovery"
+    - defaultVersion: "master"
+      name: "integracion-continua-lib"
+      retriever:
+        modernSCM:
+          scm:
+            gitSource:
+              credentialsId: "gp-credentials"
+              id: "9c89565c-87fd-42cb-9c9a-05e1b4936d01"
+              remote: "https://umane.emeal.nttdata.com/git/DIRAYA/integracion-continua"
+              traits:
+              - "gitBranchDiscovery"
+  globalUntrustedLibraries: {
+    }
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "Dirección no configurada todavía <nobody@nowhere>"
+    url: "http://10.200.200.83/"
+  lockableResourcesManager:
+    allowEmptyOrNullValues: false
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  metricsAccessKey: {
+    }
+  myView: {
+    }
+  nodeProperties: {
+    }
+  plugin: {
+    }
+  pollSCM:
+    pollingThreadCount: 10
+  projectNamingStrategy: {
+    }
+  proxyConfigurationManager: {
+    }
+  quietPeriod: {
+    }
+  resourceRoot: {
+    }
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  scmRetryCount: {
+    }
+  shell: {
+    }
+  sonarGlobalConfiguration:
+    buildWrapperEnabled: false
+    installations:
+    - credentialsId: "sonar-token-jenkins"
+      name: "sonar-scanner"
+      serverUrl: "http://132.220.201.144:9000"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+    - credentialsId: "sonar-sas-token"
+      name: "sonar-sas-server"
+      serverUrl: "http://10.200.205.163"
+      triggers:
+        skipScmCause: false
+        skipUpstreamCause: false
+  thinBackup:
+    backupAdditionalFiles: false
+    backupBuildArchive: false
+    backupBuildResults: true
+    backupBuildsToKeepOnly: false
+    backupConfigHistory: false
+    backupNextBuildNumber: false
+    backupPath: "/tmp/backups"
+    backupPluginArchives: false
+    backupUserContents: false
+    cleanupDiff: false
+    excludedFilesRegex: "`workspace/.*"
+    failFast: true
+    forceQuietModeTimeout: 120
+    fullBackupSchedule: "0 2 1,4,7,10,13,16,19,22,25,28,31 * *"
+    moveOldBackupsToZipFile: true
+    nrMaxStoredFull: -1
+    waitForIdle: true
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+  usageStatistics: {
+    }
+  viewsTabBar: {
+    }
+  webhook:
+    globalName: "Rocmwc avisos"
+    globalUrl: "https://default3048dc8743f041009acbae1971c793.95.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/d57055294351467bacb6ff0ad29a3ee6/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=p5sADyzb5xhIaJMwPyhQmcD10U3p9lQoidSg58OltnQ"
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  jdk:
+    installations:
+    - name: "JDK8"
+      properties:
+      - installSource:
+          installers:
+          - zip:
+              url: "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u482-b08/openlogic-openjdk-8u482-b08-linux-x64.tar.gz"
+    - name: "JDK21"
+  maven:
+    installations:
+    - name: "maven3.9.11"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.9.11"
+    - name: "maven-3.9"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.9.0"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
+  pipelineMaven:
+    daoClass: "org.jenkinsci.plugins.pipeline.maven.dao.PipelineMavenPluginNullDao"
+    globalTraceability: false
+    triggerDownstreamUponResultAborted: false
+    triggerDownstreamUponResultFailure: false
+    triggerDownstreamUponResultNotBuilt: false
+    triggerDownstreamUponResultSuccess: true
+    triggerDownstreamUponResultUnstable: false
+  sonarRunnerInstallation:
+    installations:
+    - name: "sonar-scanner"
+      properties:
+      - installSource:
+          installers:
+          - sonarRunnerInstaller:
+              id: "7.2.0.5079"
