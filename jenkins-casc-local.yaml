@@ -1,0 +1,249 @@
+configuration-as-code: {
+  }
+credentials:
+  folder: {
+    }
+  kubernetesCredentialProvider: {
+    }
+  providerImpl: {
+    }
+  system:
+    domainCredentials:
+    - credentials:
+      - basicSSHUserPrivateKey:
+          description: "Credencial para hacer ssh con mi clave pública"
+          id: "ryberxy-ssh"
+          passphrase: "{AQAAABAAAAAQEpefMRfzGMFBo0hA6mpLKIpAW6PRfdKP1DTjs7ntcpQ=}"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAHgQgJ6C52bEcPojb/ciRCbO+BXghUCHSNZfNhXkNmCO4GLd5RYACX+FLWLTq3D9EutWXGHwlSj3e9y7iI801PG5demPQA6LxD01IrdpzLJxTGNYUvuiZBceMRQ5EJF87n0SQ3ehP9tIF8A8NxdUV7StluI8e2M2EeCgJHBVWFVlO/KdjwNp/bqbSBUZ7xXN4a5W8dgd45dSeu5QdGuSmKaWwRw/9+Zfo5OgmpShyxuk2WXWp4jk6/yqpj3lEMZ+r1LEbQ5Fx2HUKWYUdHu1B3MfEP8HeXzJdla/8zQnEDarWxtVU+cvyG+wFdAANbY/z1SqssxQ+qovS4pf4Ixjz/whOZt33cQh6JFFXHzOoi6lRTELD7/ciRu+Jo+fcxyfymKuHBFAAJFtgnlbRpQFthP9ao8obxZFlXGEDs20B6ygW9SfTjRKNsNBGahO9nnQ3ek2Ff2vlpb05OVt+Zfrq4DMtVuDQScDmHjMO2G/RUp1+jQYlxGzb1tUDmQ3pOBrcSKXxueCJxEV6J24oHC23SxsMq/N1Up9P1UGg2XOEeXRcRkaifr0pYz21wZCKS0XsAfBtzdQEWJ+hgTgEw/vQgtDosG856yWEtpprABHw8hkzDir9X7T41CImllwBzuzM3RNU8btnbf/HCyuQBkQmre/g==}"
+          scope: GLOBAL
+          username: "Ryberxy"
+      domain: {
+        }
+  user: {
+    }
+jenkins:
+  clouds:
+  - kubernetes:
+      containerCap: 10
+      containerCapStr: "10"
+      jenkinsTunnel: "jenkins-agent.jenkins.svc.cluster.local:50000"
+      jenkinsUrl: "http://jenkins.jenkins.svc.cluster.local:8080"
+      name: "kubernetes"
+      namespace: "jenkins"
+      podLabels:
+      - key: "jenkins/jenkins-jenkins-agent"
+        value: "true"
+      serverUrl: "https://kubernetes.default"
+      templates:
+      - containers:
+        - args: "^${computer.jnlpmac} ^${computer.name}"
+          envVars:
+          - envVar:
+              key: "JENKINS_URL"
+              value: "http://jenkins.jenkins.svc.cluster.local:8080/"
+          image: "jenkins/inbound-agent:3355.v388858a_47b_33-12"
+          name: "jnlp"
+          resourceLimitCpu: "512m"
+          resourceLimitMemory: "512Mi"
+          resourceRequestCpu: "512m"
+          resourceRequestMemory: "512Mi"
+          workingDir: "/home/jenkins/agent"
+        id: "e217f32a7a436d4568b7da4c35729810b4fb347b56e30584b408086c6ae646ff"
+        label: "jenkins-jenkins-agent"
+        name: "default"
+        namespace: "jenkins"
+        nodeUsageMode: "NORMAL"
+        podRetention: "never"
+        serviceAccount: "default"
+        slaveConnectTimeout: 100
+        slaveConnectTimeoutStr: "100"
+        yamlMergeStrategy: "override"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "jenkins.diagnostics.SecurityIsOffMonitor"
+  labelAtoms:
+  - name: "built-in"
+  - name: "jenkins-jenkins-agent"
+  log: {
+    }
+  markupFormatter: "plainText"
+  mode: NORMAL
+  nodeMonitors:
+  - "architecture"
+  - "clock"
+  - diskSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "swapSpace"
+  - tmpSpace:
+      freeSpaceThreshold: "1GiB"
+      freeSpaceWarningThreshold: "2GiB"
+  - "responseTime"
+  numExecutors: 0
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+appearance:
+  consoleUrlProvider: {
+    }
+  prism:
+    theme: PRISM
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  apiTokenProperty: {
+    }
+  contentSecurityPolicy:
+    enforce: false
+  cps:
+    hideSandbox: false
+  crumb: {
+    }
+  gitHooks:
+    allowedOnAgents: false
+    allowedOnController: false
+  gitHostKeyVerificationConfiguration:
+    sshHostKeyVerificationStrategy: "knownHostsFileVerificationStrategy"
+  globalJobDslSecurityConfiguration:
+    useScriptSecurity: true
+  prism:
+    protectSourceCodeByPermission: false
+  queueItemAuthenticator: {
+    }
+  sSHD:
+    port: -1
+  scriptApproval:
+    forceSandbox: false
+  updateSiteWarningsConfiguration: {
+    }
+unclassified:
+  administrativeMonitorsConfiguration: {
+    }
+  artifactManager: {
+    }
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  casCGlobalConfig: {
+    }
+  computerRetentionCheckInterval: {
+    }
+  defaultDisplayUrlProvider: {
+    }
+  defaultFolderConfiguration: {
+    }
+  defaultView: {
+    }
+  envVarsFilter: {
+    }
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubPluginConfig:
+    hookUrl: "http://jenkins.local/github-webhook/"
+  gitLabConnectionConfig:
+    connections:
+    - clientBuilderId: "autodetect"
+      connectionTimeout: 10
+      ignoreCertificateErrors: false
+      readTimeout: 10
+    useAuthenticatedEndpoint: true
+  gitLabServers:
+    servers:
+    - name: "default"
+      serverUrl: "https://gitlab.com"
+  gitlabBuildTrigger: {
+    }
+  gitlabLogoProperty: {
+    }
+  globalDefaultFlowDurabilityLevel: {
+    }
+  globalLibraries: {
+    }
+  globalUntrustedLibraries: {
+    }
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "Dirección no configurada todavía <nobody@nowhere>"
+    url: "http://jenkins.local/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  metricsAccessKey: {
+    }
+  myView: {
+    }
+  nodeProperties: {
+    }
+  pipeline-model-docker: {
+    }
+  plugin: {
+    }
+  pollSCM:
+    pollingThreadCount: 10
+  projectNamingStrategy: {
+    }
+  proxyConfigurationManager: {
+    }
+  quietPeriod: {
+    }
+  resourceRoot: {
+    }
+  scmGit:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  scmRetryCount: {
+    }
+  shell: {
+    }
+  usageStatistics: {
+    }
+  viewsTabBar: {
+    }
+  violationsToGitLabGlobalConfiguration:
+    apiTokenPrivate: false
+    authMethodHeader: false
+    ignoreCertificateErrors: false
+    minSeverity: INFO
+  whitelist:
+    enabled: false
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
